@@ -24,11 +24,11 @@ If we want an operator $U_x$ with the following behavior
 \begin{equation}
 	\begin{split}
 		U_x |x\rangle & = - |x\rangle \\
-		U_x |y\rangle & = |y\rangle 
+		U_x |x_\perp\rangle & = |x_\perp\rangle 
 	\end{split}
 \end{equation}
 
-where all $|y\rangle$ are orthogonal to $|x\rangle$, then the operator takes the form
+where all $|x_\perp\rangle$ are orthogonal to $|x\rangle$, then the operator takes the form
 
 \begin{equation}
 	U_x = I - 2 |x\rangle\langle x|
@@ -49,14 +49,14 @@ because $\langle x | x\rangle = 1$.
 
 \begin{equation}
 	\begin{split}
-		U_x |y\rangle & = (I - 2 |x\rangle\langle x| ) |y\rangle \\
-		& = |y\rangle - 2 |x\rangle\langle x | y\rangle \\
-		& = |y\rangle - 2 \langle x | y\rangle  |y\rangle \\
-		& = |y\rangle
+		U_x |x_\perp\rangle & = (I - 2 |x\rangle\langle x| ) |x_\perp\rangle \\
+		& = |x_\perp\rangle - 2 |x\rangle\langle x | x_\perp\rangle \\
+		& = |x_\perp\rangle - 2 \langle x | x_\perp\rangle  |x_\perp\rangle \\
+		& = |x_\perp\rangle
 	\end{split}
 \end{equation}
 
-because $\langle x | y\rangle = 0$.
+because $\langle x | x_\perp\rangle = 0$.
 
 Now let's look at the result of acting on an arbitrary state $|\alpha\rangle$, that is not completely orthogonal to $|x\rangle$.
 
